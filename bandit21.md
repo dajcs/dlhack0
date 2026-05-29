@@ -6,6 +6,7 @@ Commands you may need to solve this level
 
 ssh, nc, cat, bash, screen, tmux, Unix ‘job control’ (bg, fg, jobs, &, CTRL-Z, …)
 
+[help](https://mayadevbe.me/posts/overthewire/bandit/level21/)
 
 bandit20@bandit:~$ ls -al
 total 36
