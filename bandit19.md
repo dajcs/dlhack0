@@ -15,6 +15,6 @@ bandit18@bandit.labs.overthewire.org's password:
 readme                                                                                           100%   33     0.5KB/s   00:00    
                                                                                                                                    
 ┌──(kali㉿kali)-[~/dlhack0]
-└─$ cat readme            
-cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j
-
+└─$ cat readme
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+   
