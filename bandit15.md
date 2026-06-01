@@ -1,3 +1,4 @@
+```bash
 bandit14@bandit:~$ ls -l ../bandit13
 total 8
 -rw-r----- 1 bandit14 bandit13  467 Apr  3 15:17 HINT
@@ -42,3 +43,4 @@ bandit14@bandit:~$
 bandit14@bandit:~$ echo MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS |  nc localhost 30000
 Correct!
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+```

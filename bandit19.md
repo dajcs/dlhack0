@@ -1,3 +1,4 @@
+```bash
 ┌──(kali㉿kali)-[~/dlhack0]
 └─$ scp -P 2220 bandit18@bandit.labs.overthewire.org:./readme .              
                          _                     _ _ _   
@@ -17,4 +18,4 @@ readme                                                                          
 ┌──(kali㉿kali)-[~/dlhack0]
 └─$ cat readme
 cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
-   
+```

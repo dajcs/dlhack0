@@ -1,3 +1,4 @@
+```bash
 bandit4@bandit:~/inhere$ ls -al
 total 48
 drwxr-xr-x 2 root    root    4096 Apr  3 15:17 .
@@ -31,3 +32,4 @@ bandit4@bandit:~/inhere$ cat ./-file07
 bandit4@bandit:~/inhere$ cat ./-file08
 KU����  g���
 ��jD\�9�hx�!���o�bandit4@bandit:~/inhere$ 
+```

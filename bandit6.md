@@ -1,3 +1,4 @@
+```bash
 
 bandit5@bandit:~$ ls -al
 total 24
@@ -350,4 +351,6 @@ bandit5@bandit:~/inhere$ ls -alR | grep 1033
 -rw-r-----  1 root bandit5 1033 Apr  3 15:17 .file2
 bandit5@bandit:~/inhere$ cat maybehere07/.file2
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        bandit5@bandit:~/inhere$ 
+
+bandit5@bandit:~/inhere$ 
+```

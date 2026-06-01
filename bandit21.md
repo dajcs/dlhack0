@@ -1,4 +1,4 @@
-
+```bash
 There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
 
 NOTE: Try connecting to your own network daemon to see if it works as you think
@@ -17,3 +17,34 @@ drwxr-xr-x 150 root     root      4096 Apr  3 15:20 ..
 -rw-r--r--   1 root     root       807 Mar 31  2024 .profile
 -rwsr-x---   1 bandit21 bandit20 15612 Apr  3 15:17 suconnect
 bandit20@bandit:~$ 
+
+
+# >>>>>>>>>> Terminal A <<<<<<<<<<  
+
+bandit20@bandit:~$ # create a server listening on port 2222 and sending current psw
+bandit20@bandit:~$ echo -n 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -l -p 2222
+# this command waits to receive a connection on port 2222, and when it receives one, it sends the current password (from echo)
+
+
+# >>>>>>>>>> Terminal B <<<<<<<<<<
+bandit20@bandit:~$ # Terminal B - connect to port 2222 with ./suconnect
+bandit20@bandit:~$ ./suconnect 2222
+Read: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO  # reads the password from our nc -l -p 2222 "server"
+Password matches, sending next password
+
+
+# >>>>>>>>>> Terminal A <<<<<<<<<<
+#bandit20@bandit:~$ echo -n 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -l -p 2222
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+# we're received the next password from suconnect, which means we can now use it to log in to the next level
+
+
+
+
+
+
+
+
+
+```

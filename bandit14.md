@@ -1,3 +1,4 @@
+```bash
 bandit13@bandit:~$ cat sshkey.private 
 -----BEGIN RSA PRIVATE KEY-----
 MIIEpAIBAAKCAQEAxkkOE83W2cOT7IWhFc9aPaaQmQDdgzuXCv+ppZHa++buSkN+
@@ -191,3 +192,4 @@ discord or IRC.
   Enjoy your stay!
 
 bandit14@bandit:~$ 
+```

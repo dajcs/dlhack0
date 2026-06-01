@@ -1,3 +1,4 @@
+```bash
 bandit0@bandit:/tmp/exp0$ cd
 bandit0@bandit:~$ ls -l
 total 4
@@ -11,4 +12,4 @@ contribute to the OverTheWire community so we can keep these games free!
 
 The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-b
+```

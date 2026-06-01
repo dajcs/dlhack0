@@ -1,3 +1,4 @@
+```bash
 bandit12@bandit:~$ mktemp -d
 /tmp/tmp.k3pFckSuou
 bandit12@bandit:~$ 
@@ -499,3 +500,5 @@ total 100
 -rw-r--r-- 1 bandit12 bandit12    49 May 29 09:58 data8.bin
 bandit12@bandit:/tmp/b13$ cat data8.bin
 The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+```

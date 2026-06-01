@@ -1,2 +1,4 @@
+```bash
 bandit10@bandit:~$ cat data.txt | base64 -d
 The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+```

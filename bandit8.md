@@ -1,3 +1,4 @@
+```bash
 bandit7@bandit:~$ ls -al
 total 4108
 drwxr-xr-x   2 root    root       4096 Apr  3 15:17 .
@@ -10,3 +11,4 @@ bandit7@bandit:~$ vi data.txt
 bandit7@bandit:~$ cat data.txt | grep millionth
 millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 bandit7@bandit:~$ 
+```

@@ -1,3 +1,4 @@
+```bash
 bandit15@bandit:~$ nmap -p31000-32000 localhost
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-29 13:00 UTC
 Nmap scan report for localhost (127.0.0.1)
@@ -57,4 +58,5 @@ chmod 700 ssh.priv.b17
 
 ┌──(kali㉿kali)-[~/dlhack0]
 └─$ ssh -i ssh.priv.b17 bandit17@bandit.labs.overthewire.org -p 2220
-                         _                     _ _ _   
+
+```
