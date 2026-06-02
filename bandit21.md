@@ -39,12 +39,26 @@ EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 # we're received the next password from suconnect, which means we can now use it to log in to the next level
 
+```
 
 
+## Single Terminal Solution
 
+Put the "server" command in the background and then run the "client" command in the foreground:
 
+```bash
+# "server" command in the background
+bandit20@bandit:~$ echo -n 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -l -p 2222&
+[1] 18
 
+# "client" command in the foreground
+bandit20@bandit:~$ ./suconnect 2222
+Read: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+Password matches, sending next password
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
-
-
+# retrieving the background job -- but it has already completed
+bandit20@bandit:~$ fg
+-bash: fg: job has terminated
+[1]+  Done                    echo -n 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -l -p 2222
 ```
